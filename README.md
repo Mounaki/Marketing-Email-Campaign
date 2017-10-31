@@ -16,7 +16,7 @@ They have chosen a random sample of users and emailed them. The email let the us
 
 The 3 tables are:
 
-### Email_table - info about each email that was sent
+### 1. Email_table - info about each email that was sent
 
 Columns:
 
@@ -35,13 +35,13 @@ user_country : the country where the user receiving the email was based. It come
 user_past_purchases : how many items in the past were bought by the user receiving the email
 
 
-### Email_opened_table - the id of the emails that were opened at least once.
+### 2. Email_opened_table - the id of the emails that were opened at least once.
 
 Columns:
 
 email_id : the id of the emails that were opened, i.e. the user clicked on the email and, supposedly, read it.
 
-### Link_clicked_table - the id of the emails whose link inside was clicked at least once. This user was then brought to the site.
+### 3. Link_clicked_table - the id of the emails whose link inside was clicked at least once. This user was then brought to the site.
 
 Columns:
 
